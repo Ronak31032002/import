@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link
+			href="https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./CSS/style.css" />
+		<title>Landing Page</title>
+        <style>
+            * {
+                overflow-y: hidden;
+            }
+            .footer {
+    height: 80px;
+    width: 100%;
+    color: black;
+    background-color:  #BE59C0;
+}
+            .footer p {
+    margin-left: 250px;
+    line-height:80px;
+    font-weight: bold;
+    color:  white;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+        @media only screen and (max-width: 1024px) {
+   .footer {
+    height: 80px;
+    width: 100%;
+    color: black;
+    background-color:  #BE59C0;
+}
+            .footer p {
+    margin-left: 100px;
+    line-height:50px;
+    font-weight: bold;
+    color:  white;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+            .slidershow{
+  width: 300px;
+  height: 250px;
+  overflow: hidden;
+  border: 1px solid #BE59C0;
+  margin-left: 4%;    
+  border-radius: 5px;
+margin-top: 0px;
+}
+            .login {
+	height:40%;
+	width:80%;
+	margin-left:32%;
+	margin-top:-9%;
+	font-size:18px;
+	font-weight:500;
+	font-family:sans-serif;
+	color:#fff;
+}
+            .form input {
+    height:30px;
+	border:none;
+	margin-left:0px;
+    padding-left:5px;
+	font-family:sans-serif;
+	border-radius:5px;
+	color:black;
+	background:none;
+	border:2px solid #A709AB;
+	border-top:2px solid #A709AB;
+	font-weight:bold;
+	width:120px;
+}
+            .form {
+    height: 450px;
+    width: 48%;
+    border-left: 2px dashed #BE59C0;
+    float: right;
+    margin-top: -450px;
+    margin-right: 50px;
+	font-size:16px;
+	font-weight:500;
+	font-family:sans-serif;
+	color:#BE59C0;
+    padding-left: 25px;
+}
+            }
+        </style>
+	</head>
+	<body>
+	    <header>
+	       <div class = "head">
+	       <div class = "img">
+	         <img src = "Images/logo.png">
+	       </div>
+	       <div class = "login">
+               <form action = "php/insert.php" method="post">
+	       Username:- <input type = "Name" name = "uname" placeholder = "Enter Username" required>
+	       Password:- <input type = "password" name = "pass" placeholder = "Enter Password" required>
+	       <input type = "submit" value = "LOG IN!" class = "btn">
+	       
+               </form>
+               </div>
+	       </div>
+	    </header>
+        <div class="contain">
+            <div class="social">
+               <div class="slidershow middle">
+
+      <div class="slides">
+        <input type="radio" name="r" id="r1" checked>
+        <input type="radio" name="r" id="r2">
+        <input type="radio" name="r" id="r3">
+        <input type="radio" name="r" id="r4">
+        <input type="radio" name="r" id="r5">
+        <div class="slide s1">
+          <img src="Images/social.jpg" alt="">
+        </div>
+        <div class="slide">
+          <img src="Images/social2.jpg" alt="">
+        </div>
+        <div class="slide">
+          <img src="Images/troll.jpg__w469" alt="">
+        </div>
+      </div>
+
+      <div class="navigation">
+        <label for="r1" class="bar"></label>
+        <label for="r2" class="bar"></label>
+        <label for="r3" class="bar"></label>
+      </div>
+                </div></div></div>
+            <div class = "form"><br>
+                <h1><center>SignUp-Form</center></h1><br>
+                <hr><hr><br>
+               <form action="php/insert.php" method="post">       
+Name: <input type="text" name="fname" placeholder = "Enter Name"required/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Username: <input type="text" name="uname" placeholder = "Enter Username"required/><br><br>
+Phone Number: <input type="int" name="phoneno" placeholder = "Enter Phone Number"required/><br><br>
+E-mail Address: <input type="text" name="addmail2" placeholder = "Enter Email"required/><br>  <br>       
+Password: <input type="password" name="pass" placeholder = "Enter Password" required /><br><br>
+ 
+                   <input type="submit" style = "cursor: pointer; color: Grey;padding: px"/></form>
+        </div>
+        <footer class="footer">
+            <p>Ronak Lala Production ®</p>
+        </footer>
+	</body>
+</html>

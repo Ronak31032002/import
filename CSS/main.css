@@ -1,0 +1,85 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+    overflow-x: hidden;
+}
+header {
+    overflow-y: hidden;
+}
+.head {
+	background-color:#BE59C0;
+	height:60px;
+	width:100%;
+}
+.head img {
+    float: left;
+    height: 90px;
+    width: 100px;
+    margin-top: -15px;
+    margin-left: 100px;    
+}
+.search{
+    margin-left: 350px;
+    margin-top: -45px;
+}
+.search1 {
+    height: 25px;
+    width: 30%;
+    padding-left: 10px;
+    border: none;
+    border-radius: 5px;
+    color: #BE59C0;
+    font-weight: bold;
+}
+.submit {
+     height: 25px;
+    width: 5%;
+    border: none;
+    border-radius: 5px;
+    color: #BE59C0;
+    font-weight: bold;
+    cursor: pointer;    
+}
+.about {
+    margin-left: 50%;
+    margin-top: -35px;
+}
+.about ul {
+    display: block;
+    height: 50px;
+    width: 640px;
+}
+.about ul li {
+    display: block;
+    float: right;
+    height: 50px;
+    width: 120px;
+    text-align: center;
+    line-height: 50px;
+    overflow-y: hidden;
+    font-family: sans-serif;
+    font-weight: 500; 
+}
+.about ul li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    transition: 0.1s ease-in-out;
+    font-weight: 600;
+}
+.about ul li a {
+    text-decoration: none;
+    color: #BE59C0;
+}
+.rest {
+    height: 100%;
+    width: 100%;
+    border: 2px solid black;
+}
+.left {
+    float: left;
+    height: 650px;
+    width: 290px;
+    border-right: 2px dashed #BE59C0;
+    font-size: 22px;
+}
